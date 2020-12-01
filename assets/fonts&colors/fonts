@@ -1,0 +1,15 @@
+http://www.mediafire.com/file/9rema6qdlz9kgg6/abe-illustrator-cc.rar/file
+
+------------------------------
+
+Fuentes:
+
+Inter (300, 500)
+DM Sans (400, 500, 700)
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,400&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+
+
+font-family: 'DM Sans', sans-serif;
+font-family: 'Inter', sans-serif;
