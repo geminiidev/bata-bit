@@ -20,6 +20,7 @@
 body {
 	font-size: 62.5%;
 	font-family: "DM Sans", sans-serif;
+	background-color: rgb(245,245,245);
 }
 
 .header{
@@ -84,7 +85,7 @@ body {
 
 
 .main{
-	width: 100vw;
+	width: 100%;
 	min-width: 320px;
 
 }
@@ -94,7 +95,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
+	
 }
 
 
@@ -118,4 +119,64 @@ body {
 	margin: 0px 10px 10px 10px;
 	text-align: center;
 
+}
+
+
+
+
+
+.tables {
+	width: 100%;
+	min-width: 320px;
+}
+
+.tables__container {
+
+	margin-top: 30px;
+	margin-bottom:30px; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.tables__title{
+	color: #f7931a;
+	font-size: 1rem;
+	position: relative;
+	right: 60px;
+	margin-bottom: 20px;
+}
+
+
+.tables__title--blue {
+	color: rgba(0,0,255,0.5);
+	font-size: 1rem;
+	position: relative;
+	right: 60px;
+	margin-bottom: 20px;
+}
+
+
+.tables__table {
+	width: 70%;
+	text-align: center;
+	background-color: #fff;
+	padding: 15px;
+	margin-bottom: 20px;
+	font-size: 1rem;
+	border-radius: 5px;
+}
+
+
+.tables__table__tr {
+	height: 50px;
+}
+
+.tables__lastUpdate {
+	width: 300px;
+	text-align: center;
+	font-size: .8rem;
+	background-color: rgba(255,0,0,0.35);
+	padding: 10px;
+	border-radius: 5px;
 }
