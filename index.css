@@ -149,7 +149,7 @@ body {
 
 
 .tables__title--blue {
-	color: rgba(0,0,255,0.5);
+	color: rgba(50,90,255,0.5);
 	font-size: 1rem;
 	position: relative;
 	right: 60px;
@@ -179,4 +179,185 @@ body {
 	background-color: rgba(255,0,0,0.35);
 	padding: 10px;
 	border-radius: 5px;
+}
+
+.tables__lastUpdate--blue {
+	width: 300px;
+	text-align: center;
+	font-size: .8rem;
+	background-color: rgba(50,90,255,0.35);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+
+
+
+.fuctionCards {
+	width: 100%;
+	height: auto;
+	min-width: 320px;
+	background-color: #201e1c; 
+}
+
+
+
+.fuctionCards{
+	width: 100%;
+	min-width: 320px;
+	padding: 15px; 
+}
+
+.fuctionCards__intro{
+	text-align: center;
+}
+
+.fuctionCards__batataIcon {
+	position: relative;
+	top: -1.5rem;
+}
+
+.fuctionCards__title  {
+	color: #fff;
+	font-size: 1.25rem;
+	padding: 15px 10px;
+}
+
+.fuctionCards__parragrahp {
+	color: #bababa;
+	font-size: .7rem;
+	padding: 15px 10px;
+
+}
+
+
+.fuctionCards__card {
+	width: 70%;
+	min-width: 290px;
+	max-width: 500px;
+	height: 100%;
+	background-color:#282623;
+	border-radius: 5px;
+	margin: 0px auto;
+	margin-top: 15px;
+
+}
+
+
+.fuctionCards__card__top-left-icon{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.fuctionCards__card__title {
+	color: #fff;
+	font-size:1rem;
+	padding: 10px 10px;
+}
+
+.fuctionCards__card__parragrahp {
+	color: #808080;
+	font-size: .90rem;
+	padding: 10px 10px;
+}
+
+
+
+
+
+.comodity {
+	widows: 100%;
+	min-width: 320px;
+	height: 320px;
+	background-image: url(assets/img/bitcoinbaby.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.comodity__h2 {
+	color: #fff;
+	font-size: .9rem;
+}
+
+
+
+
+.offers{
+	width: 100%;
+	min-width: 320px;
+	padding-bottom: 70px;
+	text-align: center; 
+	background-color: #faf8f7;
+}
+
+.offers__title{
+	color: #201e1c;
+	font-size: 1.35rem;
+	padding-top: 50px;
+	padding-bottom: 20px;	
+}
+
+.offers__parragraph{
+	color: #757575;
+	font-size: .95rem;
+}
+
+.offers__card {
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 40px auto;
+	box-shadow: 0px 4px 7.5px rgba(0,0,0,0.1);
+	width: 70%;	
+}
+
+.offers__card__paytime {
+	font-size: .95rem;
+}
+
+.offers__card__price {
+	font-size: 1.35rem;
+}
+
+.offers__card__plansName {
+	font-size: .95rem;
+}
+
+
+
+
+.footer{
+	font-size: .9rem;
+	min-width: 320px;
+	height: 10rem;
+	background-color: #f7931a;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+
+.footer__leftDiv {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.footer__links{
+	color: #fff;
+	margin-top: 15px;
+}
+
+
+.footer__rightDiv {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
