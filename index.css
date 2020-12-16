@@ -266,6 +266,8 @@ body {
 
 
 
+
+
 .comodity {
 	widows: 100%;
 	min-width: 320px;
@@ -283,6 +285,10 @@ body {
 	color: #fff;
 	font-size: .9rem;
 }
+
+
+
+
 
 
 
@@ -307,25 +313,71 @@ body {
 	font-size: .95rem;
 }
 
+.offers__cardSlider {
+	display: flex;
+	height: 300px;
+	overflow-x:  scroll;
+	overscroll-behavior-x: contain;
+	scroll-snap-type: x proximity;
+}
+
+
 .offers__card {
 	background-color: #fff;
-	border-radius: 5px;
-	margin: 40px auto;
+	border-radius: 15px;
+	margin: 40px 10px;
 	box-shadow: 0px 4px 7.5px rgba(0,0,0,0.1);
-	width: 70%;	
+	width: 65%;
+	min-width: 230px;	
+	scroll-snap-align: center;
 }
 
 .offers__card__paytime {
-	font-size: .95rem;
+	font-size: .75rem;
+	padding:15px;
 }
 
 .offers__card__price {
-	font-size: 1.35rem;
+	font-size: 3rem;
 }
 
+
 .offers__card__plansName {
-	font-size: .95rem;
+	font-size: .75rem;
+	padding:15px;
 }
+
+
+.offers__card__p{
+	color: #757575;
+	font-size: .65rem;
+	margin-bottom: 10px;
+}
+
+.offers__card__btn {
+	font-size: .95rem;
+	font-weight: bold;
+	padding: 15px 20px;
+	border: 2px solid #f7931a;
+	border-radius: 5px;
+	margin: 15px;
+}
+
+
+.offers__card__recomended {
+	font-size: .75rem;
+	color: #fff;
+	position: relative;
+	left: 70px;
+	bottom: 15px;
+	background-color: #f7931a;
+	border-radius: 10px;
+	padding: 12px;
+	width: 120px;
+
+}
+
+
 
 
 
